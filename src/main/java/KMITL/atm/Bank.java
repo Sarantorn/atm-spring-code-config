@@ -20,6 +20,10 @@ public class Bank {
       this.customers = dataSource.readCustomers();
    }
 
+   public String getName() {
+      return name;
+   }
+
    /**
     * Adds a customer to the bank.
     * @param customer the customer to add
